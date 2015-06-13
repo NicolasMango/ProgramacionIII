@@ -66,7 +66,7 @@ public class AlgoritmoKruskal {
 						c2 = conjuntos.recuperarElemento(i).valor2 ;
 					}
 				}
-				// si pertenecen a distintos conjuntos toubes.
+				// si pertenecen a distintos conjuntos.
 				if (c1 != c2){
 				// unifico los conjuntos
 					for (i = 0;i< cantidad ;i++){
