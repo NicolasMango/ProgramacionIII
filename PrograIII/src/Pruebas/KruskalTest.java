@@ -32,7 +32,7 @@ public class KruskalTest {
 				adyacentes = GrafoFinal.Adyacentes(i);
 				while (!adyacentes.conjuntoVacio()){
 					int vertice = adyacentes.elegir();
-					System.out.println("Vertice : "+i+" es adyacente al vertice "+vertice);
+					System.out.println("Vertice : "+i+" es adyacente al vertice " +vertice);
 					adyacentes.sacar(vertice);
 				}
 					

@@ -3,7 +3,7 @@ package Implementaciones;
 import TDA.VectorTDA;
 
 public class AlgoritmoMergeSort {
-	void MergeSort ( VectorTDA < Integer > valores , int inicio ,int fin ) throws Exception {
+	public void MergeSort ( VectorTDA <Integer> valores , int inicio ,int fin ) throws Exception {
 			if (inicio <fin){
 			   int medio = (fin+ inicio )/2;
 			   MergeSort ( valores ,inicio , medio );
@@ -12,7 +12,7 @@ public class AlgoritmoMergeSort {
 			}
 	}
 	
-	void Merge ( VectorTDA < Integer > valores , int inicio , int fin) throws Exception {
+	public void Merge ( VectorTDA < Integer > valores , int inicio , int fin) throws Exception {
 			// utilizo un vector auxiliar , paso todo all y luego lo vuelvo al vector de origen
 			VectorTDA <Integer> resultado = new Vector <Integer>();
 			resultado.inicializarVector (1+ fin - inicio );
